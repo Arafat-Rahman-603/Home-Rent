@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function Inputs() {
   const navigate = useNavigate()
   return (
-    <main className="w-full h-max heroMain flex flex-col  pt-16 pb-20 md:px-10 px-2">
+    <main className="w-full h-max bg-[url('https://delivery.digitalassets.zillowgroup.com/api/public/content/Journey-img_2-sm2x_CMS_Medium.png?v=a137a65a')] bg-center bg-cover  flex flex-col  pt-16 pb-20 md:px-10 px-2">
       <div className="space-y-2">
         <h1 className="md:text-7xl text-6xl font-bold text-white">Dream it.</h1>
         <h1 className="md:text-7xl text-5xl font-bold text-white">See it. Rent it.</h1>
