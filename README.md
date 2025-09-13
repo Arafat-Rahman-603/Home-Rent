@@ -12,10 +12,8 @@ A modern, production-ready property rental platform built with React, Node.js, a
 
 ### 🏘️ Property Management
 - **Browse Properties** with advanced search and filtering
-- **Add New Properties** with image upload
 - **Property Details** with contact functionality
 - **Real-time Search** by location, price, bedrooms
-- **Image Gallery** support
 
 ### 🎨 Modern UI/UX
 - **Responsive Design** for all devices
@@ -25,10 +23,7 @@ A modern, production-ready property rental platform built with React, Node.js, a
 - **Active Route Highlighting**
 
 ### 🚀 Production Ready
-- **Docker Support** for easy deployment
 - **Environment Configuration**
-- **Optimized Build** with code splitting
-- **Security Headers** and CORS
 - **Error Handling** and validation
 
 ## 🛠️ Tech Stack
@@ -89,18 +84,6 @@ npm run dev
 
 Visit: `http://localhost:5173`
 
-## 🐳 Docker Deployment
-
-### Development
-```bash
-docker-compose up --build
-```
-
-### Production
-```bash
-docker-compose -f docker-compose.prod.yml up --build
-```
-
 ## 📱 Pages & Features
 
 ### Public Pages
@@ -117,15 +100,6 @@ docker-compose -f docker-compose.prod.yml up --build
 ### Authentication
 - **Login** (`/login`) - User sign in
 - **Signup** (`/signup`) - User registration
-
-## 🔧 API Endpoints
-
-### Properties
-- `GET /properties` - Get all properties
-- `GET /properties/:id` - Get single property
-- `POST /properties` - Create new property
-- `PATCH /properties/:id/view` - Increment view count
-- `PATCH /properties/:id/contact` - Increment contact count
 
 ## 🎨 Design System
 
